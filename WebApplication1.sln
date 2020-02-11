@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{F374D0FC-7324-4A73-9DD4-0194876E655F}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "test_signalr", "test_signalr\test_signalr.pyproj", "{47EBA45A-6B7C-4068-8A9E-6C24F6A505B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F374D0FC-7324-4A73-9DD4-0194876E655F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F374D0FC-7324-4A73-9DD4-0194876E655F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F374D0FC-7324-4A73-9DD4-0194876E655F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F374D0FC-7324-4A73-9DD4-0194876E655F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47EBA45A-6B7C-4068-8A9E-6C24F6A505B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47EBA45A-6B7C-4068-8A9E-6C24F6A505B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C5AB71D-5A07-49AB-9839-333AB7212AC3}
+	EndGlobalSection
+EndGlobal

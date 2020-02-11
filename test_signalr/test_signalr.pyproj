@@ -23,6 +23,34 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="signalrcore\helpers.py" />
+    <Compile Include="signalrcore\hub\auth_hub_connection.py" />
+    <Compile Include="signalrcore\hub\base_hub_connection.py" />
+    <Compile Include="signalrcore\hub\connection_state.py" />
+    <Compile Include="signalrcore\hub\errors.py" />
+    <Compile Include="signalrcore\hub\reconnection.py" />
+    <Compile Include="signalrcore\hub\__init__.py" />
+    <Compile Include="signalrcore\hub_connection_builder.py" />
+    <Compile Include="signalrcore\messages\base_message.py" />
+    <Compile Include="signalrcore\messages\cancel_invocation_message.py" />
+    <Compile Include="signalrcore\messages\close_message.py" />
+    <Compile Include="signalrcore\messages\completion_message.py" />
+    <Compile Include="signalrcore\messages\handshake\request.py" />
+    <Compile Include="signalrcore\messages\handshake\response.py" />
+    <Compile Include="signalrcore\messages\handshake\__init__.py" />
+    <Compile Include="signalrcore\messages\invocation_message.py" />
+    <Compile Include="signalrcore\messages\message_type.py" />
+    <Compile Include="signalrcore\messages\ping_message.py" />
+    <Compile Include="signalrcore\messages\stream_invocation_message.py" />
+    <Compile Include="signalrcore\messages\stream_item_message.py" />
+    <Compile Include="signalrcore\messages\__init__.py" />
+    <Compile Include="signalrcore\protocol\base_hub_protocol.py" />
+    <Compile Include="signalrcore\protocol\handshake\__init__.py" />
+    <Compile Include="signalrcore\protocol\json_hub_protocol.py" />
+    <Compile Include="signalrcore\protocol\messagepack_protocol.py" />
+    <Compile Include="signalrcore\protocol\__init__.py" />
+    <Compile Include="signalrcore\subject.py" />
+    <Compile Include="signalrcore\__init__.py" />
     <Compile Include="test_signalr.py" />
   </ItemGroup>
   <ItemGroup>
@@ -30,6 +58,14 @@
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|PythonCore|3.7" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="signalrcore\" />
+    <Folder Include="signalrcore\hub\" />
+    <Folder Include="signalrcore\messages\" />
+    <Folder Include="signalrcore\messages\handshake\" />
+    <Folder Include="signalrcore\protocol\" />
+    <Folder Include="signalrcore\protocol\handshake\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
